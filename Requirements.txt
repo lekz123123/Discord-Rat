@@ -1,1 +1,2 @@
-python -m pip install discord.py pywin32 pyautogui pyperclip psutil pygetwindow sounddevice scipy pynput keyboard requests win10toast opencv-python pillow mss numpy pyaudio opuslib pytz tzlocal screeninfo setuptools cython
+python -m pip install discord.py pywin32 pyautogui pyperclip psutil pygetwindow sounddevice scipy pynput keyboard requests win10toast opencv-python pillow mss numpy pyaudio opuslib pytz tzlocal screeninfo setuptools cython pyinstaller
+
