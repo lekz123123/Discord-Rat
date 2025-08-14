@@ -33,9 +33,12 @@
 - By using this software, you agree that the developer is not liable for any misuse. You assume all legal responsibility.
 
 ### 🛠️ Building
+- **Copy the command in Requirements.txt to install the necessary libraries**
+- Run vs_BuildTools.exe and select "Desktop development with C++"
+- Run OPUSFIX.py
 - python setup.py build_ext --inplace
 - pyinstaller --onefile --noconsole --icon=NONE launcher.py
-- **Copy the command in Requirements.txt to install the necessary libraries**
+
 
 ### 🔧 Usage
 - **Add your Discord token and webhooks**
