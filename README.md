@@ -37,7 +37,7 @@
 - Run vs_BuildTools.exe and select "Desktop development with C++"
 - Run OPUSFIX.py
 - python setup.py build_ext --inplace
-- pyinstaller --onefile --noconsole --icon=NONE launcher.py
+- pyinstaller --noconfirm --onefile --noconsole --icon=NONE --collect-all certifi --hidden-import aiohttp --hidden-import certifi --hidden-import ssl launcher.py
 
 
 ### 🔧 Usage
